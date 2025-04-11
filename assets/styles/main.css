@@ -227,152 +227,14 @@ footer .copyright {
   font-size: 1.5em;
 }
 
-/*celulares bem antigos (ex: iPhone 4)*/
-@media screen and (max-width: 320px) {
+/*iPhone 14 Pro Max, 15 Pro Max*/
+@media screen and (max-width: 428px) {
   header .portfolio-title {
-    padding-left: 60px;
-  }
-
-  main .hero .top-web .greeting {
-    font-size: 20px;
-  }
-
-  main .hero .top-web .role {
-    font-size: 15px;
-  }
-
-  main .hero .btn-projects,
-  main .hero .btn-contact {
-    font-size: 14px;
-  }
-
-  main img {
-    width: 200px;
-    margin-top: 25px;
-    margin-left: 50px;
+    padding-left: 130px;
   }
 
   main .hero i {
-    margin-top: 20px;
-  }
-
-  main .about .section-title {
-    font-size: 20px;
-  }
-
-  main .about .about-text {
-    font-size: 16px;
-  }
-
-  main .projects .section-title {
-    font-size: 20px;
-  }
-
-  main .projects .project {
-    padding: 10px 80px;
-  }
-}
-
-/*celulares compactos ou Androids menores*/
-@media screen and (max-width: 360px) {
-  header .portfolio-title {
-    padding-left: 80px;
-  }
-
-  main .hero .top-web .greeting {
-    font-size: 20px;
-  }
-
-  main .hero .top-web .role {
-    font-size: 18px;
-  }
-
-  main .hero .btn-projects,
-  main .hero .btn-contact {
-    font-size: 18px;
-  }
-
-  main img {
-    width: 220px;
-    margin-top: 25px;
-    margin-left: 70px;
-  }
-
-  main .hero i {
-    margin-top: 40px;
-  }
-
-  main .about .section-title {
-    font-size: 25px;
-  }
-
-  main .about .about-text {
-    font-size: 18px;
-  }
-
-  main .projects .section-title {
-    font-size: 20px;
-  }
-
-  main .projects .project {
-    padding: 10px 80px;
-  }
-}
-
-/*iPhone 6, 7, 8, X, 11, 12 Mini*/
-@media screen and (max-width: 375px) {
-  header .portfolio-title {
-    padding-left: 100px;
-  }
-
-  main .hero .top-web .greeting {
-    font-size: 20px;
-  }
-
-  main .hero .top-web .role {
-    font-size: 20px;
-  }
-
-  main .hero .btn-projects,
-  main .hero .btn-contact {
-    font-size: 20px;
-  }
-
-  main img {
-    width: 260px;
-    margin-top: 25px;
-    margin-left: 50px;
-  }
-
-  main .hero i {
-    margin-top: 80px;
-  }
-
-  main .about .section-title {
-    font-size: 25px;
-  }
-
-  main .about .about-text {
-    font-size: 18px;
-  }
-
-  main .projects .section-title {
-    font-size: 25px;
-  }
-
-  main .projects .project {
-    padding: 10px 80px;
-  }
-}
-
-/* iPhone 14 Pro, 15 Pro*/
-@media screen and (max-width: 390px) {
-  header .portfolio-title {
-    padding-left: 110px;
-  }
-
-  main .hero i {
-    margin-top: 0;
+    margin-top: 30px;
   }
 
   header .navigation a {
@@ -384,11 +246,11 @@ footer .copyright {
   }
 
   main .hero .top-web .greeting {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   main .hero .top-web .role {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   main .hero .flex {
@@ -396,9 +258,21 @@ footer .copyright {
   }
 
   main .hero img {
-    margin-top: -50px;
-    width: 280px;
-    margin-left: -50px;
+    margin-top: -160px;
+    width: 300px;
+    margin-left: -45px;
+  }
+
+  main .about .section-title {
+    font-size: 34px;
+  }
+
+  main .about .about-text {
+    font-size: 22px;
+  }
+
+  main .projects .section-title {
+    font-size: 25px;
   }
 
   main .projects .flex {
@@ -411,6 +285,10 @@ footer .copyright {
 
   main .about .skills {
     flex-direction: column;
+  }
+
+  main .projects .project {
+    padding: 10px 80px;
   }
 }
 
@@ -479,14 +357,14 @@ footer .copyright {
   }
 }
 
-/*iPhone 14 Pro Max, 15 Pro Max*/
-@media screen and (max-width: 428px) {
+/* iPhone 14 Pro, 15 Pro*/
+@media screen and (max-width: 390px) {
   header .portfolio-title {
-    padding-left: 130px;
+    padding-left: 110px;
   }
 
   main .hero i {
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   header .navigation a {
@@ -498,11 +376,11 @@ footer .copyright {
   }
 
   main .hero .top-web .greeting {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   main .hero .top-web .role {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   main .hero .flex {
@@ -510,21 +388,9 @@ footer .copyright {
   }
 
   main .hero img {
-    margin-top: -160px;
-    width: 300px;
-    margin-left: -45px;
-  }
-
-  main .about .section-title {
-    font-size: 34px;
-  }
-
-  main .about .about-text {
-    font-size: 22px;
-  }
-
-  main .projects .section-title {
-    font-size: 25px;
+    margin-top: -50px;
+    width: 280px;
+    margin-left: -50px;
   }
 
   main .projects .flex {
@@ -537,6 +403,140 @@ footer .copyright {
 
   main .about .skills {
     flex-direction: column;
+  }
+}
+
+/*iPhone 6, 7, 8, X, 11, 12 Mini*/
+@media screen and (max-width: 375px) {
+  header .portfolio-title {
+    padding-left: 100px;
+  }
+
+  main .hero .top-web .greeting {
+    font-size: 20px;
+  }
+
+  main .hero .top-web .role {
+    font-size: 20px;
+  }
+
+  main .hero .btn-projects,
+  main .hero .btn-contact {
+    font-size: 20px;
+  }
+
+  main img {
+    width: 260px;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+
+  main .hero i {
+    margin-top: 80px;
+  }
+
+  main .about .section-title {
+    font-size: 25px;
+  }
+
+  main .about .about-text {
+    font-size: 18px;
+  }
+
+  main .projects .section-title {
+    font-size: 25px;
+  }
+
+  main .projects .project {
+    padding: 10px 80px;
+  }
+}
+
+/*celulares compactos ou Androids menores*/
+@media screen and (max-width: 360px) {
+  header .portfolio-title {
+    padding-left: 80px;
+  }
+
+  main .hero .top-web .greeting {
+    font-size: 20px;
+  }
+
+  main .hero .top-web .role {
+    font-size: 18px;
+  }
+
+  main .hero .btn-projects,
+  main .hero .btn-contact {
+    font-size: 18px;
+  }
+
+  main img {
+    width: 220px;
+    margin-top: 25px;
+    margin-left: 70px;
+  }
+
+  main .hero i {
+    margin-top: 40px;
+  }
+
+  main .about .section-title {
+    font-size: 25px;
+  }
+
+  main .about .about-text {
+    font-size: 18px;
+  }
+
+  main .projects .section-title {
+    font-size: 20px;
+  }
+
+  main .projects .project {
+    padding: 10px 80px;
+  }
+}
+
+/*celulares bem antigos (ex: iPhone 4)*/
+@media screen and (max-width: 320px) {
+  header .portfolio-title {
+    padding-left: 60px;
+  }
+
+  main .hero .top-web .greeting {
+    font-size: 20px;
+  }
+
+  main .hero .top-web .role {
+    font-size: 15px;
+  }
+
+  main .hero .btn-projects,
+  main .hero .btn-contact {
+    font-size: 14px;
+  }
+
+  main img {
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+
+  main .hero i {
+    margin-top: 20px;
+  }
+
+  main .about .section-title {
+    font-size: 20px;
+  }
+
+  main .about .about-text {
+    font-size: 16px;
+  }
+
+  main .projects .section-title {
+    font-size: 20px;
   }
 
   main .projects .project {
