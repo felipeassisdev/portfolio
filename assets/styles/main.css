@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #000;
+  line-height: 1.6;
+}
+
+header.header {
+  width: 100%;
+  height: 90px;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .portfolio-title {
+  font-family: 'Inter', sans-serif;
+  padding-left: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header .navigation {
+  padding-right: 30px;
+}
+
+header .navigation a {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+main section .hero {
+  height: 70vh;
+}
+
+main .hero .flex {
+  display: flex;
+}
+
+main .hero .top-web {
+  margin-top: 5vh;
+  text-align: left;
+  padding: 100px 20px;
+}
+
+main .hero .top-web .greeting {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+main .hero .top-web .role {
+  font-family: 'Quantico', sans-serif;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+main .hero .top-web .buttons {
+  margin-top: 20px;
+}
+
+main .hero .btn-projects,
+main .hero .btn-contact {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Quantico', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+main .hero .btn-projects {
+  background: rgba(44, 44, 44, 1);
+}
+
+main .hero .btn-contact {
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid #fff;
+}
+
+main .hero .img {
+  margin-top: 125px;
+  margin-left: 100px;
+}
+
+main .hero i {
+  margin-top: -40px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+main .about {
+  padding: 50px 20px;
+  margin-top: 15px;
+}
+
+main .about .section-title {
+  font-family: 'Quantico', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .about .about-text {
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 10em;
+}
+
+main .about .skills {
+  display: flex;
+  justify-content: center;
+}
+
+main .about .skill {
+  margin: 10px;
+  text-align: center;
+}
+
+main .about .skill .skill-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main .projects {
+  padding: 50px 20px;
+}
+
+main .projects .flex {
+  display: flex;
+}
+
+main .projects .section-title {
+  font-family: 'Quantico', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+main .projects .project {
+  background: rgba(44, 44, 44, 1);
+  border-radius: 15px;
+  padding: 20px 120px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+main .projects .project-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .projects .project-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+main .projects .project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+main .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+main .contact a {
+  color: #fff;
+  font-size: 38px;
+  padding: 20px;
+}
+
+main .contact .section-title {
+  font-family: 'Quantico', sans-serif;
+  font-size: 40px;
+}
+
+footer.footer {
+  padding: 40px;
+  text-align: center;
+  background: rgba(44, 44, 44, 1);
+}
+
+footer .copyright {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 390px) {
+  main .hero i {
+    margin-top: 0;
+  }
+
+  header .navigation a {
+    display: none;
+  }
+
+  main .hero .top-web {
+    margin-top: -20px;
+  }
+
+  main .hero .top-web .greeting {
+    font-size: 32px;
+  }
+
+  main section span {
+    color: #595959;
+  }
+
+  main .hero .flex {
+    flex-direction: column;
+  }
+
+  main .hero .img {
+    margin-top: -50px;
+    width: 50px;
+    margin-left: 0.1px;
+  }
+
+  main .projects .flex {
+    flex-direction: column;
+  }
+
+  main .about .about-text {
+    padding: 0 1em;
+  }
+
+  main .about .skills {
+    flex-direction: column;
+  }
+}
