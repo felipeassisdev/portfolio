@@ -96,7 +96,8 @@ main .hero .btn-contact {
   border: 1px solid #fff;
 }
 
-main .hero .img {
+main .hero img {
+  width: 400px;
   margin-top: 125px;
   margin-left: 100px;
 }
@@ -253,14 +254,19 @@ footer .copyright {
     font-size: 26px;
   }
 
+  main .hero .btn-projects,
+  main .hero .btn-contact {
+    font-size: 26px;
+  }
+
   main .hero .flex {
     flex-direction: column;
   }
 
   main .hero img {
-    margin-top: -160px;
+    margin-top: -60px;
     width: 300px;
-    margin-left: -45px;
+    margin-left: 65px;
   }
 
   main .about .section-title {
@@ -295,7 +301,7 @@ footer .copyright {
 /*Androids mais modernos (Pixel 5, Galaxy S22)*/
 @media screen and (max-width: 412px) {
   header .portfolio-title {
-    padding-left: 110px;
+    padding-left: 120px;
   }
 
   main .hero i {
@@ -311,7 +317,7 @@ footer .copyright {
   }
 
   main .hero .top-web .greeting {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   main .hero .top-web .role {
@@ -323,9 +329,9 @@ footer .copyright {
   }
 
   main .hero img {
-    margin-top: -150px;
+    margin-top: -60px;
     width: 300px;
-    margin-left: -55px;
+    margin-left: 55px;
   }
 
   main .about .section-title {
@@ -364,7 +370,7 @@ footer .copyright {
   }
 
   main .hero i {
-    margin-top: 0;
+    margin-top: 10;
   }
 
   header .navigation a {
@@ -388,9 +394,9 @@ footer .copyright {
   }
 
   main .hero img {
-    margin-top: -50px;
-    width: 280px;
-    margin-left: -50px;
+    margin-top: -60px;
+    width: 300px;
+    margin-left: 50px;
   }
 
   main .projects .flex {
@@ -409,15 +415,15 @@ footer .copyright {
 /*iPhone 6, 7, 8, X, 11, 12 Mini*/
 @media screen and (max-width: 375px) {
   header .portfolio-title {
-    padding-left: 100px;
+    padding-left: 105px;
   }
 
   main .hero .top-web .greeting {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   main .hero .top-web .role {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   main .hero .btn-projects,
@@ -425,10 +431,9 @@ footer .copyright {
     font-size: 20px;
   }
 
-  main img {
-    width: 260px;
-    margin-top: 25px;
-    margin-left: 50px;
+  main .hero img {
+    width: 300px;
+    margin-left: 40px;
   }
 
   main .hero i {
@@ -455,26 +460,25 @@ footer .copyright {
 /*celulares compactos ou Androids menores*/
 @media screen and (max-width: 360px) {
   header .portfolio-title {
-    padding-left: 80px;
+    padding-left: 100px;
   }
 
   main .hero .top-web .greeting {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   main .hero .top-web .role {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   main .hero .btn-projects,
   main .hero .btn-contact {
-    font-size: 18px;
+    font-size: 22px;
   }
 
-  main img {
-    width: 220px;
-    margin-top: 25px;
-    margin-left: 70px;
+  main .hero img {
+    width: 300px;
+    margin-left: 30px;
   }
 
   main .hero i {
@@ -501,26 +505,26 @@ footer .copyright {
 /*celulares bem antigos (ex: iPhone 4)*/
 @media screen and (max-width: 320px) {
   header .portfolio-title {
-    padding-left: 60px;
+    padding-left: 80px;
   }
 
   main .hero .top-web .greeting {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   main .hero .top-web .role {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   main .hero .btn-projects,
   main .hero .btn-contact {
-    font-size: 14px;
+    font-size: 18px;
   }
 
-  main img {
-    width: 200px;
-    margin-top: 25px;
-    margin-left: 50px;
+  main .hero img {
+    width: 180px;
+    margin-top: -80px;
+    margin-left: 70px;
   }
 
   main .hero i {
