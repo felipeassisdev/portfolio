@@ -1,1 +1,591 @@
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-size:14px;font-family:'Poppins',sans-serif;color:#fff;background-color:#000;line-height:1.6}header.header{width:100%;height:90px;background:rgb(0 0 0);display:flex;justify-content:space-between;align-items:center;padding:0 20px}header .portfolio-title{font-family:'Inter',sans-serif;padding-left:30px;font-size:32px;font-weight:700}header .navigation{padding-right:30px}header .navigation a{margin-left:20px;font-size:20px;font-weight:600;text-decoration:none;color:#fff}main section .hero{height:70vh}main .hero .flex{display:flex}main .hero .top-web{margin-top:5vh;text-align:left;padding:100px 20px}main .hero .top-web .greeting{font-size:64px;font-weight:700}main .hero .top-web .role{font-family:'Quantico',sans-serif;font-size:36px;margin-top:10px}main .hero .top-web .buttons{margin-top:20px}main .hero .btn-projects,main .hero .btn-contact{display:inline-block;padding:10px 20px;margin:10px;border-radius:5px;text-decoration:none;font-family:'Quantico',sans-serif;font-size:24px;font-weight:700;color:#fff}main .hero .btn-projects{background:rgb(44 44 44)}main .hero .btn-contact{background:rgb(0 0 0);border:1px solid #fff}main .hero img{width:400px;margin-top:125px;margin-left:100px}main .hero i{margin-top:-40px;font-size:50px;display:flex;justify-content:center;animation:float 2s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}main .about{padding:50px 20px;margin-top:15px}main .about .section-title{font-family:'Quantico',sans-serif;font-size:40px;text-align:center;margin-bottom:20px}main .about .about-text{font-size:20px;margin-top:60px;margin-bottom:30px;text-align:center;padding:0 10em}main .about .skills{display:flex;justify-content:center}main .about .skill{margin:10px;text-align:center}main .about .skill .skill-name{font-size:20px;font-weight:500}main .projects{padding:50px 20px}main .projects .flex{display:flex}main .projects .section-title{font-family:'Quantico',sans-serif;font-size:40px;margin-bottom:30px;text-align:center}main .projects .project{background:rgb(44 44 44);border-radius:15px;padding:20px 120px;margin:20px auto;max-width:400px}main .projects .project-title{font-size:32px;font-weight:700;margin-bottom:10px}main .projects .project-description{font-size:16px;margin-bottom:20px}main .projects .project-link{display:inline-block;padding:10px 20px;background:rgb(217 217 217);border-radius:15px;font-size:16px;font-weight:700;color:#000;text-decoration:none}main .contact{padding:50px 20px;text-align:center}main .contact a{color:#fff;font-size:38px;padding:20px}main .contact .section-title{font-family:'Quantico',sans-serif;font-size:40px}footer.footer{padding:40px;text-align:center;background:rgb(44 44 44)}footer .copyright{font-size:1.5em}@media screen and (max-width:428px){header .portfolio-title{padding-left:130px}main .hero i{margin-top:30px}header .navigation a{display:none}main .hero .top-web{margin-top:-20px}main .hero .top-web .greeting{font-size:34px}main .hero .top-web .role{font-size:26px}main .hero .btn-projects,main .hero .btn-contact{font-size:26px}main .hero .flex{flex-direction:column}main .hero img{margin-top:-60px;width:300px;margin-left:65px}main .about .section-title{font-size:34px}main .about .about-text{font-size:22px}main .projects .section-title{font-size:25px}main .projects .flex{flex-direction:column}main .about .about-text{padding:0 1em}main .about .skills{flex-direction:column}main .projects .project{padding:10px 80px}main .contact .section-title{font-size:20px}main .contact a{font-size:32px}}@media screen and (max-width:412px){header .portfolio-title{padding-left:120px}main .hero i{margin-top:30px}header .navigation a{display:none}main .hero .top-web{margin-top:-20px}main .hero .top-web .greeting{font-size:34px}main .hero .top-web .role{font-size:24px}main .hero .flex{flex-direction:column}main .hero img{margin-top:-60px;width:300px;margin-left:55px}main .about .section-title{font-size:32px}main .about .about-text{font-size:22px}main .projects .section-title{font-size:25px}main .projects .flex{flex-direction:column}main .about .about-text{padding:0 1em}main .about .skills{flex-direction:column}main .projects .project{padding:10px 80px}main .contact .section-title{font-size:28px}main .contact a{font-size:30px}}@media screen and (max-width:390px){header .portfolio-title{padding-left:110px}main .hero i{margin-top:10}header .navigation a{display:none}main .hero .top-web{margin-top:-20px}main .hero .top-web .greeting{font-size:32px}main .hero .top-web .role{font-size:24px}main .hero .flex{flex-direction:column}main .hero img{margin-top:-60px;width:300px;margin-left:50px}main .projects .flex{flex-direction:column}main .about .about-text{padding:0 1em}main .about .skills{flex-direction:column}main .contact .section-title{font-size:26px}main .contact a{font-size:28px}}@media screen and (max-width:375px){header .portfolio-title{padding-left:105px}main .hero .top-web .greeting{font-size:30px}main .hero .top-web .role{font-size:22px}main .hero .btn-projects,main .hero .btn-contact{font-size:20px}main .hero img{width:300px;margin-left:40px}main .hero i{margin-top:80px}main .about .section-title{font-size:25px}main .about .about-text{font-size:18px}main .projects .section-title{font-size:25px}main .projects .project{padding:10px 80px}main .contact .section-title{font-size:24px}main .contact a{font-size:26px}}@media screen and (max-width:360px){header .portfolio-title{padding-left:100px}main .hero .top-web .greeting{font-size:28px}main .hero .top-web .role{font-size:22px}main .hero .btn-projects,main .hero .btn-contact{font-size:22px}main .hero img{width:300px;margin-left:30px}main .hero i{margin-top:40px}main .about .section-title{font-size:25px}main .about .about-text{font-size:18px}main .projects .section-title{font-size:20px}main .projects .project{padding:10px 80px}main .contact .section-title{font-size:22px}main .contact a{font-size:24px}}@media screen and (max-width:320px){header .portfolio-title{padding-left:80px}main .hero .top-web .greeting{font-size:28px}main .hero .top-web .role{font-size:18px}main .hero .btn-projects,main .hero .btn-contact{font-size:18px}main .hero img{width:180px;margin-top:-80px;margin-left:70px}main .hero i{margin-top:20px}main .about .section-title{font-size:20px}main .about .about-text{font-size:16px}main .projects .section-title{font-size:20px}main .projects .project{padding:10px 80px}main .contact .section-title{font-size:20px}main .contact a{font-size:22px}}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6
+}
+
+header.header {
+    width: 100%;
+    height: 90px;
+    background: rgb(0 0 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px
+}
+
+header .portfolio-title {
+    font-family: 'Inter', sans-serif;
+    padding-left: 30px;
+    font-size: 32px;
+    font-weight: 700
+}
+
+header .navigation {
+    padding-right: 30px
+}
+
+header .navigation a {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff
+}
+
+main section .hero {
+    height: 70vh
+}
+
+main .hero .flex {
+    display: flex
+}
+
+main .hero .top-web {
+    margin-top: 5vh;
+    text-align: left;
+    padding: 100px 20px
+}
+
+main .hero .top-web .greeting {
+    font-size: 64px;
+    font-weight: 700
+}
+
+main .hero .top-web .role {
+    font-family: 'Quantico', sans-serif;
+    font-size: 36px;
+    margin-top: 10px
+}
+
+main .hero .top-web .buttons {
+    margin-top: 20px
+}
+
+main .hero .btn-projects,
+main .hero .btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Quantico', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff
+}
+
+main .hero .btn-projects {
+    background: rgb(44 44 44)
+}
+
+main .hero .btn-contact {
+    background: rgb(0 0 0);
+    border: 1px solid #fff
+}
+
+main .hero img {
+    width: 400px;
+    margin-top: 125px;
+    margin-left: 100px
+}
+
+main .hero i {
+    margin-top: -40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    animation: float 2s ease-in-out infinite
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+}
+
+main .about {
+    padding: 50px 20px;
+    margin-top: 15px
+}
+
+main .about .section-title {
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+main .about .about-text {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 10em
+}
+
+main .about .skills {
+    display: flex;
+    justify-content: center
+}
+
+main .about .skill {
+    margin: 10px;
+    text-align: center
+}
+
+main .about .skill .skill-name {
+    font-size: 20px;
+    font-weight: 500
+}
+
+main .projects {
+    padding: 50px 20px
+}
+
+main .projects .flex {
+    display: flex
+}
+
+main .projects .section-title {
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+main .projects .project {
+    background: rgb(44 44 44);
+    border-radius: 15px;
+    padding: 20px 120px;
+    margin: 20px auto;
+    max-width: 400px
+}
+
+main .projects .project-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+main .projects .project-description {
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+main .projects .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(217 217 217);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none
+}
+
+main .contact {
+    padding: 50px 20px;
+    text-align: center
+}
+
+main .contact a {
+    color: #fff;
+    font-size: 38px;
+    padding: 20px
+}
+
+main .contact .section-title {
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px
+}
+
+footer.footer {
+    padding: 40px;
+    text-align: center;
+    background: rgb(44 44 44)
+}
+
+footer .copyright {
+    font-size: 1.5em
+}
+
+@media screen and (max-width:428px) {
+    header .portfolio-title {
+        padding-left: 130px
+    }
+
+    main .hero i {
+        margin-top: 30px
+    }
+
+    header .navigation a {
+        display: none
+    }
+
+    main .hero .top-web {
+        margin-top: -20px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 34px
+    }
+
+    main .hero .top-web .role {
+        font-size: 26px
+    }
+
+    main .hero .btn-projects,
+    main .hero .btn-contact {
+        font-size: 26px
+    }
+
+    main .hero .flex {
+        flex-direction: column
+    }
+
+    main .hero img {
+        margin-top: -60px;
+        width: 300px;
+        margin-left: 65px
+    }
+
+    main .about .section-title {
+        font-size: 34px
+    }
+
+    main .about .about-text {
+        font-size: 22px
+    }
+
+    main .projects .section-title {
+        font-size: 25px
+    }
+
+    main .projects .flex {
+        flex-direction: column
+    }
+
+    main .about .about-text {
+        padding: 0 1em
+    }
+
+    main .about .skills {
+        flex-direction: column
+    }
+
+    main .projects .project {
+        padding: 10px 80px
+    }
+
+    main .contact .section-title {
+        font-size: 20px
+    }
+
+    main .contact a {
+        font-size: 32px
+    }
+}
+
+@media screen and (max-width:412px) {
+    header .portfolio-title {
+        padding-left: 120px
+    }
+
+    main .hero i {
+        margin-top: 30px
+    }
+
+    header .navigation a {
+        display: none
+    }
+
+    main .hero .top-web {
+        margin-top: -20px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 34px
+    }
+
+    main .hero .top-web .role {
+        font-size: 24px
+    }
+
+    main .hero .flex {
+        flex-direction: column
+    }
+
+    main .hero img {
+        margin-top: -60px;
+        width: 300px;
+        margin-left: 55px
+    }
+
+    main .about .section-title {
+        font-size: 32px
+    }
+
+    main .about .about-text {
+        font-size: 22px
+    }
+
+    main .projects .section-title {
+        font-size: 25px
+    }
+
+    main .projects .flex {
+        flex-direction: column
+    }
+
+    main .about .about-text {
+        padding: 0 1em
+    }
+
+    main .about .skills {
+        flex-direction: column
+    }
+
+    main .projects .project {
+        padding: 10px 80px
+    }
+
+    main .contact .section-title {
+        font-size: 28px
+    }
+
+    main .contact a {
+        font-size: 30px
+    }
+}
+
+@media screen and (max-width:390px) {
+    header .portfolio-title {
+        padding-left: 110px
+    }
+
+    main .hero i {
+        margin-top: 10
+    }
+
+    header .navigation a {
+        display: none
+    }
+
+    main .hero .top-web {
+        margin-top: -20px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 32px
+    }
+
+    main .hero .top-web .role {
+        font-size: 24px
+    }
+
+    main .hero .flex {
+        flex-direction: column
+    }
+
+    main .hero img {
+        margin-top: -60px;
+        width: 300px;
+        margin-left: 50px
+    }
+
+    main .projects .flex {
+        flex-direction: column
+    }
+
+    main .about .about-text {
+        padding: 0 1em
+    }
+
+    main .about .skills {
+        flex-direction: column
+    }
+
+    main .contact .section-title {
+        font-size: 26px
+    }
+
+    main .contact a {
+        font-size: 28px
+    }
+}
+
+@media screen and (max-width:375px) {
+    header .portfolio-title {
+        padding-left: 105px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 30px
+    }
+
+    main .hero .top-web .role {
+        font-size: 22px
+    }
+
+    main .hero .btn-projects,
+    main .hero .btn-contact {
+        font-size: 20px
+    }
+
+    main .hero img {
+        width: 300px;
+        margin-left: 40px
+    }
+
+    main .hero i {
+        margin-top: 80px
+    }
+
+    main .about .section-title {
+        font-size: 25px
+    }
+
+    main .about .about-text {
+        font-size: 18px
+    }
+
+    main .projects .section-title {
+        font-size: 25px
+    }
+
+    main .projects .project {
+        padding: 10px 80px
+    }
+
+    main .contact .section-title {
+        font-size: 24px
+    }
+
+    main .contact a {
+        font-size: 26px
+    }
+}
+
+@media screen and (max-width:360px) {
+    header .portfolio-title {
+        padding-left: 100px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 28px
+    }
+
+    main .hero .top-web .role {
+        font-size: 22px
+    }
+
+    main .hero .btn-projects,
+    main .hero .btn-contact {
+        font-size: 22px
+    }
+
+    main .hero img {
+        width: 300px;
+        margin-left: 30px
+    }
+
+    main .hero i {
+        margin-top: 40px
+    }
+
+    main .about .section-title {
+        font-size: 25px
+    }
+
+    main .about .about-text {
+        font-size: 18px
+    }
+
+    main .projects .section-title {
+        font-size: 20px
+    }
+
+    main .projects .project {
+        padding: 10px 80px
+    }
+
+    main .contact .section-title {
+        font-size: 22px
+    }
+
+    main .contact a {
+        font-size: 24px
+    }
+}
+
+@media screen and (max-width:320px) {
+    header .portfolio-title {
+        padding-left: 80px
+    }
+
+    main .hero .top-web .greeting {
+        font-size: 28px
+    }
+
+    main .hero .top-web .role {
+        font-size: 18px
+    }
+
+    main .hero .btn-projects,
+    main .hero .btn-contact {
+        font-size: 18px
+    }
+
+    main .hero img {
+        width: 180px;
+        margin-top: -80px;
+        margin-left: 70px
+    }
+
+    main .hero i {
+        margin-top: 20px
+    }
+
+    main .about .section-title {
+        font-size: 20px
+    }
+
+    main .about .about-text {
+        font-size: 16px
+    }
+
+    main .projects .section-title {
+        font-size: 20px
+    }
+
+    main .projects .project {
+        padding: 10px 80px
+    }
+
+    main .contact .section-title {
+        font-size: 20px
+    }
+
+    main .contact a {
+        font-size: 22px
+    }
+}
