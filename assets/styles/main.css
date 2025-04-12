@@ -296,6 +296,14 @@ footer .copyright {
   main .projects .project {
     padding: 10px 80px;
   }
+
+  main .contact .section-title {
+    font-size: 20px;
+  }
+
+  main .contact a {
+    font-size: 32px;
+  }
 }
 
 /*Androids mais modernos (Pixel 5, Galaxy S22)*/
@@ -361,6 +369,14 @@ footer .copyright {
   main .projects .project {
     padding: 10px 80px;
   }
+
+  main .contact .section-title {
+    font-size: 28px;
+  }
+
+  main .contact a {
+    font-size: 30px;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro*/
@@ -410,6 +426,14 @@ footer .copyright {
   main .about .skills {
     flex-direction: column;
   }
+
+  main .contact .section-title {
+    font-size: 26px;
+  }
+
+  main .contact a {
+    font-size: 28px;
+  }
 }
 
 /*iPhone 6, 7, 8, X, 11, 12 Mini*/
@@ -454,6 +478,14 @@ footer .copyright {
 
   main .projects .project {
     padding: 10px 80px;
+  }
+
+  main .contact .section-title {
+    font-size: 24px;
+  }
+
+  main .contact a {
+    font-size: 26px;
   }
 }
 
@@ -500,6 +532,14 @@ footer .copyright {
   main .projects .project {
     padding: 10px 80px;
   }
+
+  main .contact .section-title {
+    font-size: 22px;
+  }
+
+  main .contact a {
+    font-size: 24px;
+  }
 }
 
 /*celulares bem antigos (ex: iPhone 4)*/
@@ -545,5 +585,13 @@ footer .copyright {
 
   main .projects .project {
     padding: 10px 80px;
+  }
+
+  main .contact .section-title {
+    font-size: 20px;
+  }
+
+  main .contact a {
+    font-size: 22px;
   }
 }
